@@ -4,7 +4,7 @@ A simple web-based calculator built with **HTML**, **CSS**, and **JavaScript**.
 Supports addition, subtraction, multiplication, division, decimals, clear, and backspace.
 
 ## 🚀 Live Demo
-[Click here to try it](https://deep-singh-ctrl.github.io/calculator/)
+[Click here to try it](https://deep-singh-ctrl.github.io/Calculator/)
 
 ## ✨ Features
 - Basic arithmetic operations (+ − × ÷)
