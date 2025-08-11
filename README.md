@@ -17,5 +17,5 @@ Supports addition, subtraction, multiplication, division, decimals, clear, and b
 1. Clone the repo:
    ```bash
    git clone https://github.com/<your-username>/calculator.git
-2. Open Calculator.html in your browser
+2. Open index.html in your browser
 
