@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <h1>Welcome to Calculator!</h1>
+
+    <div class="buttons">
+        <!-- Number buttons -->
+        <button onclick="press('0')">0</button>
+        <button onclick="press('1')">1</button>
+        <button onclick="press('2')">2</button>
+        <button onclick="press('3')">3</button>
+        <button onclick="press('4')">4</button>
+        <button onclick="press('5')">5</button>
+        <button onclick="press('6')">6</button>
+        <button onclick="press('7')">7</button>
+        <button onclick="press('8')">8</button>
+        <button onclick="press('9')">9</button>
+        <button onclick="press('.')">.</button>
+
+        <br>
+
+        <!-- Operators -->
+        <button onclick="add()">+</button>
+        <button onclick="subtract()">-</button>
+        <button onclick="multiply()">*</button>
+        <button onclick="divide()">/</button>
+
+        <!-- Utilities -->
+        <button onclick="equal()">=</button>
+        <button onclick="clearCalc()">Clear</button>
+        <button onclick="back()">←</button>
+    </div>
+
+    <h2>Result</h2>
+    <p id="result-el"></p>
+
+    <script src="Calculator.js"></script>
+</body>
+</html>
